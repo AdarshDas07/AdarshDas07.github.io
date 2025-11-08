@@ -4,7 +4,7 @@ const awards = [
   {
     title: '2nd Prize, Carbon Nanomaterials Presentation',
     description: 'Awarded by Metallum 5.0, IIEST Shibpur for a presentation on advancing carbon nanomaterials for automotive applications. Includes a cash prize of Rs. 2000.',
-    imageUrl: '/images/award-nanomaterials.png',
+    imageUrl: '/images/carbon nanomaterials.png',
   },
   {
     title: 'Certificate of Appreciation',
