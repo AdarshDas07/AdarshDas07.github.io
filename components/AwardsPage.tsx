@@ -9,7 +9,7 @@ const awards = [
   {
     title: 'Certificate of Appreciation',
     description: 'From the E-Drive Workshop for active participation and contribution during the workshop on electric vehicles.',
-    imageUrl: '/images/award-certificate-appreciation.png',
+    imageUrl: '/images/electric vehicles.jpeg',
   },
   {
     title: 'Winner & Best Player Award',
