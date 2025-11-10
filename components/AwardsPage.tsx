@@ -1,6 +1,7 @@
 import React from 'react';
 
-const awards = [
+// Data for the first section
+const achievements = [
   {
     title: '2nd Prize, Carbon Nanomaterials Presentation',
     description: 'Awarded by Metallum 5.0, IIEST Shibpur for a presentation on advancing carbon nanomaterials for automotive applications. Includes a cash prize of Rs. 2000.',
@@ -10,7 +11,11 @@ const awards = [
     title: 'Certificate of Appreciation',
     description: 'From the E-Drive Workshop for active participation and contribution during the workshop on electric vehicles.',
     imageUrl: '/images/electric vehicles.jpg',
-  },
+  }
+];
+
+// Data for the second section
+const sportsAwards = [
   {
     title: 'Winner & Best Player Award',
     description: 'At the Diamond City West Football Tournament (2022) for leading the team to victory.',
@@ -33,12 +38,32 @@ const awards = [
   }
 ];
 
-
 const AwardsPage: React.FC = () => {
   const [selectedImage, setSelectedImage] = React.useState<string | null>(null);
 
+  // A reusable component for rendering an award card to avoid repetition
+  const AwardCard: React.FC<{ award: { title: string; description: string; imageUrl: string } }> = ({ award }) => (
+    <div className="bg-white rounded-lg shadow-md overflow-hidden group flex flex-col">
+      <div 
+        className="h-64 overflow-hidden cursor-pointer"
+        onClick={() => setSelectedImage(award.imageUrl)}
+      >
+        <img 
+          src={award.imageUrl} 
+          alt={award.title} 
+          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" 
+        />
+      </div>
+      <div className="p-6 flex-grow">
+        <h3 className="text-xl font-bold text-gray-800">{award.title}</h3>
+        <p className="mt-2 text-gray-600 text-justify">{award.description}</p>
+      </div>
+    </div>
+  );
+
   return (
     <div className="py-8 md:py-12">
+      {/* Header Image */}
       <div className="mb-8">
         <img 
           src="/images/header.jpg" 
@@ -47,28 +72,33 @@ const AwardsPage: React.FC = () => {
         />
       </div>
 
-      <h1 className="text-4xl font-bold text-gray-800 mb-8 border-b pb-4">Achievements & Recognitions</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-        {awards.map((award, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden group flex flex-col">
-            <div 
-              className="h-64 overflow-hidden cursor-pointer"
-              onClick={() => setSelectedImage(award.imageUrl)}
-            >
-              <img 
-                src={award.imageUrl} 
-                alt={award.title} 
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" 
-              />
-            </div>
-            <div className="p-6 flex-grow">
-              <h3 className="text-xl font-bold text-gray-800">{award.title}</h3>
-              <p className="mt-2 text-gray-600 text-justify">{award.description}</p>
-            </div>
+      {/* Section 1: Achievements & Recognitions */}
+      <section className="mb-12">
+        <h1 className="text-4xl font-bold text-gray-800 mb-8 border-b pb-4">Achievements & Recognitions</h1>
+        {/* Scrollable container for the grid */}
+        <div className="max-h-[30rem] overflow-y-auto pr-4 custom-scrollbar">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+            {achievements.map((award, index) => (
+              <AwardCard key={index} award={award} />
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      </section>
 
+      {/* Section 2: Sports Achievements */}
+      <section>
+        <h1 className="text-4xl font-bold text-gray-800 mb-8 border-b pb-4">Sports Achievements</h1>
+        {/* Scrollable container for the grid */}
+        <div className="max-h-[30rem] overflow-y-auto pr-4 custom-scrollbar">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+            {sportsAwards.map((award, index) => (
+              <AwardCard key={index} award={award} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Modal for viewing enlarged image */}
       {selectedImage && (
         <div 
           className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
