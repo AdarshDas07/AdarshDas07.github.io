@@ -106,7 +106,8 @@ const HomePage: React.FC = () => {
         
         <section className="mt-12">
             <h2 className="text-3xl font-bold text-gray-800 border-b pb-2">Research Projects</h2>
-            <div className="relative mt-12 w-full max-w-4xl mx-auto">
+            {/* FIX: Added pt-4 to give the timeline line space to render above the first dot */}
+            <div className="relative mt-12 w-full max-w-4xl mx-auto pt-4">
                 {/* Timeline Line */}
                 <div 
                     className="absolute left-6 md:left-1/2 top-0 bottom-0 w-1.5 transform md:-translate-x-1/2"
@@ -155,4 +156,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;
+export default HomePage;```
