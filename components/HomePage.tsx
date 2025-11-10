@@ -106,10 +106,12 @@ const HomePage: React.FC = () => {
         
         <section className="mt-12">
             <h2 className="text-3xl font-bold text-gray-800 border-b pb-2">Research Projects</h2>
-            <div className="relative mt-12 w-full max-w-4xl mx-auto pt-4">
+            {/* FIX 2: Added pb-4 for symmetrical line fading */}
+            <div className="relative mt-12 w-full max-w-4xl mx-auto pt-4 pb-4">
                 {/* Timeline Line */}
+                {/* FIX 1: Added -translate-x-1/2 to center the line relative to the dots on mobile */}
                 <div 
-                    className="absolute left-6 md:left-1/2 top-0 bottom-0 w-1.5 transform md:-translate-x-1/2"
+                    className="absolute left-6 md:left-1/2 top-0 bottom-0 w-1.5 transform -translate-x-1/2"
                     style={{ background: 'linear-gradient(to bottom, transparent, #333333 10%, #333333 90%, transparent)' }}
                 ></div>
                 
@@ -126,7 +128,6 @@ const HomePage: React.FC = () => {
                                     <div className={`inline-flex items-center gap-4 ${isLeft ? 'md:flex-row-reverse' : ''}`}>
                                         <div className="relative px-4 py-2 bg-gray-100 rounded-lg shadow-sm">
                                             <h3 className="font-bold text-gray-900 text-base">{item.title}</h3>
-                                            {/* FIX: Re-added the closing backtick ` for the template literal */}
                                             <div className={`
                                                 absolute top-1/2 -translate-y-1/2 w-0 h-0 
                                                 border-t-8 border-t-transparent border-b-8 border-b-transparent
