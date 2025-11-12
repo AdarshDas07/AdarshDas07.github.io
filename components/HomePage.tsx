@@ -165,7 +165,7 @@ const HomePage: React.FC = () => {
                             // FIX: Changed the outer element back to a div
                             <div key={index} className="relative flex items-start md:items-center">
                                 {/* Dot */}
-                                <div className="absolute left-6 md:left-1/2 top-2 md:top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-7 h-7 bg-white rounded-full border-4 border-[#FF6F61] z-10"></div>
+                                <div className="absolute left-6 md:left-1/2 top-2 md:top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-7 h-7 bg-white rounded-full border-4 border-blue-600 z-10"></div>
                                 
                                 {/* Content */}
                                 <div className={`w-full pl-12 text-left md:w-1/2 md:pl-0 ${isLeft ? 'md:pr-8 md:text-right' : 'md:pl-8 md:text-left md:ml-auto'}`}>
