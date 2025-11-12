@@ -49,9 +49,9 @@ const researchProjectsTimeline = [
 
 const recentActivitiesTimeline = [
     { date: 'October 2025', description: 'I, along with my team, won first prize in BGMI tournament at IIESTS cultural fest.' },
+    { date: 'September 2025', description: 'I played in a football tournament, reached till semi-final round.' },
     { date: 'August 2025 (Ongoing)', description: 'I began working on my final year thesis.' },
     { date: 'July 2025', description: 'I completed my summer internship from Jadavpur University.' },
-    { date: 'July 2025', description: 'I played in a football tournament, reached till semi-final round.' },
 ];
 
 const HomePage: React.FC = () => {
@@ -135,7 +135,16 @@ const HomePage: React.FC = () => {
               {" "}where I had gained expertise on fabrication using powder metallurgy.
             </p>
             <p>
-              {" "}My academic journey has equipped me with a solid foundation in Materials Engineering principles and hands-on experience with various software tools. 
+              {" "}My academic journey has equipped me with a solid foundation in Materials Engineering principles and hands-on experience with various software tools. Here is my{" "}
+              <a
+                  href="https://www.iiests.ac.in/IIEST/Faculty/metal-tapendu"
+                  className="text-blue-600"
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+              CV 
+              </a>
+              .
             </p>
           </div>
         </section>
