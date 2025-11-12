@@ -10,10 +10,10 @@ const academicLinks = [
 
 const researchProjectsTimeline = [
   {
-    date: 'August 2025',
-    title: 'Final Year Thesis',
+    date: 'Fall 2025',
+    title: 'Final Year Thesis (Ongoing)',
     details: [
-      'Research Intern (Mentor: Prof. Kaushik Das)',
+      'Mentor: Prof. Kaushik Das',
       'IIESTS',
       'Simulation study on the effect of carbon nanoparticle additives on base fluid properties.'
     ],
@@ -22,27 +22,27 @@ const researchProjectsTimeline = [
     date: 'Summer 2025',
     title: 'Summer Research Internship',
     details: [
-        'Course Project (Mentors: Tech Analogy)',
+        'Mentor: Prof. Md. Basiruddin Sk',
         'Jadavpur University',
-        'Designed an F1 car chassis in SolidWorks and performed aerodynamic analysis using Ansys and MATLAB.'
+        'Study of Wear Performance and Tensile Behaviour of Al-Mg-Zn Alloys.'
     ],
   },
   {
-    date: 'Spring 2022',
-    title: 'Adhesive EEG Device',
+    date: 'Fall 2024',
+    title: 'Undergraduate Research Project',
     details: [
-        'Bachelor Capstone Project',
+        'Mentor: Prof. Tapendu Mandal',
         'IIESTS',
-        'Constructed a compact wearable EEG chip (based on TGAM) for monitoring sleep spindle.'
+        'Green Synthesis of Characterization of porous Mg-Zn Scaffolds for Biological Implants.'
     ],
   },
   {
-    date: 'Fall 2021',
-    title: 'Material Characterization',
+    date: 'Fall 2023',
+    title: 'Undergraduate Project',
     details: [
-        'Course Project',
+        'Mentor: Prof. Sukumar Kundu',
         'IIESTS',
-        'Analyzed mechanical properties of various alloys using tensile testing and microscopy.'
+        'Friction Stir Welding (FSW) of Aluminium 6082.'
     ],
   },
 ];
