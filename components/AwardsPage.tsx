@@ -50,24 +50,24 @@ const sportsAwards = [
 
 const morePictures = [
   {
-    title: '2nd Prize, Technical Fest - Metallum 5.0, IIEST Shibpur, 2024',
-    description: 'Awarded "Certificate of Merit" for presenting a hypothesis on "Advancing Carbon Nanomaterials for Reduction of Automotive Engine Friction by using h-BN nanosheets and spherical W nanoparticles additives: A Hypothesis using Molecular Dynamics Simulation."',
-    imageUrl: '/images/Adarsh-Certificate.jpg',
+    title: 'Presentation, Technical Fest - Metallum 5.0, IIEST Shibpur, 2024',
+    description: 'Presenting the topic "Advancing Carbon Nanomaterials for Reduction of Automotive Engine Friction by using h-BN nanosheets and spherical W nanoparticles additives: A Hypothesis using Molecular Dynamics Simulation."',
+    imageUrl: '/images/event_pic7.jpg',
   },
   {
-    title: '2nd Prize, Technical Fest - Metallum 5.0, IIEST Shibpur, 2024',
-    description: 'Receiving Award from Head of Department 2024.',
-    imageUrl: '/images/Adarsh-Prize_Metallum.jpeg',
+    title: 'Poster Competition, Technical Fest - Metallum 5.0, IIEST Shibpur, 2024',
+    description: 'Presented a Poster on "Current Trends of Giga-Casting Technology in Car Manufacturing."',
+    imageUrl: '/images/event_pic1.jpg',
   },
   {
-    title: 'Letter of Recommendation - E-Drive by TechAnalogy',
-    description: 'Awarded an LOR for successfully finishing and submiting a project on electric vehicles during the workshop.',
-    imageUrl: '/images/AdarshDas_E-drive_LOR.png',
+    title: 'Poster Competition, Technical Fest - Metallum 5.0, IIEST Shibpur, 2024',
+    description: 'Presented a Poster on "Current Trends of Giga-Casting Technology in Car Manufacturing."',
+    imageUrl: '/images/event_pic.jpg',
   },
   {
-    title: 'Certificate of Appreciation - E-Drive by TechAnalogy',
-    description: 'From the E-Drive Workshop for active participation and contribution during the workshop on electric vehicles.',
-    imageUrl: '/images/AdarshDas_E-drive_COA.png',
+    title: 'Presentation, Technical Fest - Metallum 5.0, IIEST Shibpur, 2024',
+    description: 'Presenting the topic "Hydrogen liquefaction: A fundamental approach for a clean and renewable energy carrier for various applications."',
+    imageUrl: '/images/event_pic3.jpg',
   }
 ];
 
