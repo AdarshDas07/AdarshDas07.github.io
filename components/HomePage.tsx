@@ -14,7 +14,7 @@ const researchProjectsTimeline = [
     title: 'Final Year Thesis',
     details: [
       'Research Intern (Mentor: Prof. Kaushik Das)',
-      'IIESTS'
+      'IIESTS',
       'Simulation study on the effect of carbon nanoparticle additives on base fluid properties.'
     ],
   },
@@ -23,7 +23,7 @@ const researchProjectsTimeline = [
     title: 'Summer Research Internship',
     details: [
         'Course Project (Mentors: Tech Analogy)',
-        'Jadavpur University'
+        'Jadavpur University',
         'Designed an F1 car chassis in SolidWorks and performed aerodynamic analysis using Ansys and MATLAB.'
     ],
   },
@@ -32,7 +32,7 @@ const researchProjectsTimeline = [
     title: 'Adhesive EEG Device',
     details: [
         'Bachelor Capstone Project',
-        'IIESTS'
+        'IIESTS',
         'Constructed a compact wearable EEG chip (based on TGAM) for monitoring sleep spindle.'
     ],
   },
@@ -41,7 +41,7 @@ const researchProjectsTimeline = [
     title: 'Material Characterization',
     details: [
         'Course Project',
-        'IIESTS'
+        'IIESTS',
         'Analyzed mechanical properties of various alloys using tensile testing and microscopy.'
     ],
   },
