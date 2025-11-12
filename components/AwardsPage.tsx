@@ -3,24 +3,24 @@ import React from 'react';
 // Data for the first section: Academic Awards
 const achievements = [
   {
-    title: 'Best Undergraduate Research Thesis Award',
-    description: 'Awarded for an outstanding thesis on the "Tribological Properties of Self-Lubricating Metal Matrix Composites," recognized for its innovative approach and significant findings.',
-    imageUrl: '/images/academic-excellence.png',
+    title: '2nd Prize, Technical Fest - Metallum 5.0, IIEST Shibpur, 2024',
+    description: 'Awarded "Certificate of Merit" for presenting a hypothesis on "Advancing Carbon Nanomaterials for Reduction of Automotive Engine Friction by using h-BN nanosheets and spherical W nanoparticles additives: A Hypothesis using Molecular Dynamics Simulation."',
+    imageUrl: '/images/Adarsh-Certificate.jpg',
   },
   {
-    title: 'Materials Science Excellence Scholarship',
-    description: 'Received a merit-based scholarship from the Department of Metallurgy and Materials Engineering for consistent academic excellence and contributions to the department.',
-    imageUrl: '/images/materials-award.png',
+    title: '2nd Prize, Technical Fest - Metallum 5.0, IIEST Shibpur, 2024',
+    description: 'Receiving Award from Head of Department 2024.',
+    imageUrl: '/images/Adarsh-Prize_Metallum.jpeg',
   },
   {
-    title: '2nd Prize, Carbon Nanomaterials Presentation',
-    description: 'Awarded by Metallum 5.0, IIEST Shibpur for a presentation on advancing carbon nanomaterials for automotive applications. Includes a cash prize of Rs. 2000.',
-    imageUrl: '/images/carbon nanomaterials.png',
+    title: 'Letter of Recommendation - E-Drive by TechAnalogy',
+    description: 'Awarded an LOR for successfully finishing and submiting a project on electric vehicles during the workshop.',
+    pdfUrl: '/Documents/AdarshDas_E-drive_LOR.pdf',
   },
   {
-    title: 'Certificate of Appreciation',
+    title: 'Certificate of Appreciation - E-Drive by TechAnalogy',
     description: 'From the E-Drive Workshop for active participation and contribution during the workshop on electric vehicles.',
-    imageUrl: '/images/electric vehicles.jpg',
+    pdfUrl: '/Documents/AdarshDas_E-drive_COA.pdf',
   }
 ];
 
