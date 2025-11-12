@@ -87,7 +87,7 @@ const HomePage: React.FC = () => {
               {" "}I am a senior-year year undergraduate student at{" "}
                <a
                   href="https://www.iiests.ac.in"
-                  className="font-bold text-blue-800"
+                  className="font-bold text-blue-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
@@ -96,7 +96,7 @@ const HomePage: React.FC = () => {
               , majoring in Metallurgy and Materials Engineering. Currently, I am working on my final year thesis under the supervision of Prof.{" "}
               <a
                   href="https://www.iiests.ac.in/IIEST/Faculty/metal-kaushik"
-                  className="font-bold text-blue-800"
+                  className="font-bold text-blue-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
@@ -105,7 +105,7 @@ const HomePage: React.FC = () => {
               , on thermal and tribological properties of a material. I recently did a summer internship at{" "}
               <a
                   href="https://jadavpuruniversity.in/"
-                  className="font-bold text-blue-800"
+                  className="font-bold text-blue-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
@@ -114,7 +114,7 @@ const HomePage: React.FC = () => {
               {" "}under Prof.{" "}
               <a
                   href="https://jadavpuruniversity.in/faculty-profile/md-basiruddin-sk/"
-                  className="font-bold text-blue-800"
+                  className="font-bold text-blue-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
@@ -123,7 +123,7 @@ const HomePage: React.FC = () => {
               {" "}where I had studied wear perfromance and tensile behaviour of alloys. Previously, I had worked under Prof.{" "}
               <a
                   href="https://www.iiests.ac.in/IIEST/Faculty/metal-tapendu"
-                  className="font-bold text-blue-800"
+                  className="font-bold text-blue-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
@@ -142,7 +142,7 @@ const HomePage: React.FC = () => {
           <ul className="mt-4 space-y-6">
             {recentActivitiesTimeline.map((item, index) => (
               <li key={index} className="flex flex-col sm:flex-row gap-2 sm:gap-6">
-                <p className="font-mono font-bold text-lg text-blue-800 w-full sm:w-40 flex-shrink-0">{item.date}</p>
+                <p className="font-mono font-bold text-lg text-blue-600 w-full sm:w-40 flex-shrink-0">{item.date}</p>
                 <p className="text-gray-700">{item.description}</p>
               </li>
             ))}
