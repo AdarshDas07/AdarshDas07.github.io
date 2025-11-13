@@ -2,42 +2,14 @@ import React from 'react';
 
 const researchProjects = [
   {
-    title: 'Automated Control of External Ventricular Drain for Neuro-ICU',
-    imageUrl: 'https://storage.googleapis.com/aistudio-programmable-ui-project-assets/5e12b7a912e5668e219e59275e7a9668.png',
+    title: 'Friction Stir Welding',
+    imageUrl: '/images/FSW.png',
     descriptionPoints: [
-      'Built an automated intracranial pressure leveling system with a pressure sensor, linear actuator, depth camera, and stepper motor.',
-      'Recognized the leveling system as a following stabilization problem, using full state feedback and internal model principle to design controller and analyze system error.',
-      'Conducted validation experiments using the VICON motion capture device to ensure the controlling quality with real-time human motion.',
+      'Rotational speed is a key process parameter in friction stir welding, controlling heat input and material flow.',
+      'By tuning this speed, engineers can tailor weld microstructure and performance for different applications.',
     ],
-    link: { text: '[PDF]', href: '#' }
-  },
-  {
-    title: 'Adhesive EEG Device for Enhanced Comfort (Bachelor Capstone: IQP)',
-    imageUrl: 'https://storage.googleapis.com/aistudio-programmable-ui-project-assets/c50c18400030c6a836885ca66d21463a.png',
-    descriptionPoints: [
-      'Constructed a compact wearable EEG chip (based on TGAM) for monitoring sleep spindle.',
-      'Designed for enhanced comfort and long-term use in non-clinical environments.',
-    ],
-    link: { text: '[Details]', href: '#' }
-  },
-  {
-    title: 'Advancing Carbon Nanomaterials for Reduction of Automotive Engine Friction',
-    imageUrl: 'https://storage.googleapis.com/aistudio-programmable-ui-project-assets/6f03d9e8-nanomaterials.png',
-    descriptionPoints: [
-        'Formulated a hypothesis on using h-BN nanosheets and spherical W nanoparticles as additives to reduce engine friction.',
-        'Proposed using Molecular Dynamics Simulation to test and validate the hypothesis.',
-    ],
-    link: { text: '[PPT]', href: '#' }
-  },
-  {
-      title: 'F1 Chassis Aerodynamics Simulation',
-      imageUrl: 'https://storage.googleapis.com/aistudio-programmable-ui-project-assets/4a1b5c7d-f1-simulation.png',
-      descriptionPoints: [
-          'Designed an F1 car chassis using SolidWorks.',
-          'Analyzed its aerodynamic properties using Ansys and MATLAB.',
-      ],
-      link: { text: '[PPT]', href: '#' }
-  },
+    link: { text: '[PPT]', href: '/Documents/Friction Stir Welding(Adarsh Das).pdf' }
+  }
 ];
 
 // New data for the TechFest Projects section
