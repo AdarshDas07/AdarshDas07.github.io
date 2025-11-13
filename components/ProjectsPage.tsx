@@ -1,6 +1,6 @@
 import React from 'react';
 
-const researchProjects = [
+const academicProjects = [
   {
     title: 'Friction Stir Welding',
     imageUrl: '/images/FSW.png',
@@ -74,15 +74,15 @@ const ProjectsPage: React.FC = () => {
       
       {/* Existing Research Projects Section */}
       <section className="mb-12">
-        <h2 className="text-3xl font-bold text-gray-700 mb-8 border-b pb-3">Research Projects</h2>
+        <h2 className="text-3xl font-bold text-gray-700 mb-8 border-b pb-3">Academic Projects</h2>
         <div className="space-y-12">
-          {researchProjects.map(p => <ProjectItem key={p.title} {...p} />)}
+          {academicProjects.map(p => <ProjectItem key={p.title} {...p} />)}
         </div>
       </section>
 
       {/* New TechFest Projects Section */}
       <section>
-        <h2 className="text-3xl font-bold text-gray-700 mb-8 border-b pb-3">TechFest Projects</h2>
+        <h2 className="text-3xl font-bold text-gray-700 mb-8 border-b pb-3">Technical Fest Projects</h2>
         <div className="space-y-12">
           {techFestProjects.map(p => <ProjectItem key={p.title} {...p} />)}
         </div>
