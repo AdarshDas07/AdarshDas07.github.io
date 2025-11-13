@@ -43,25 +43,35 @@ const researchProjects = [
 // New data for the TechFest Projects section
 const techFestProjects = [
   {
-    title: 'Autonomous Maze-Solving Robot',
-    imageUrl: '/images/techfest-robot.png', // <-- New sample project
+    title: 'Carbon Nanomaterials',
+    imageUrl: '/images/Carbon nanomaterials.png', // <-- New sample project
     descriptionPoints: [
-      'Developed a line-following robot using Arduino and IR sensors for a competitive TechFest event.',
-      'Implemented a PID control algorithm for precise motor control, enabling smooth navigation through complex mazes.',
-      'Secured 2nd place in the robotics category for speed and accuracy in solving the maze.',
+      'Carbon nano-additives can enhance lubricant performance, but challenges remain with dispersion stability and compatibility with existing additives.',
+      'Ongoing research is focused on understanding anti-friction mechanisms, optimizing nano-lubricant formulations for engines, and ensuring their safety and low toxicity.',
+      'Combining carbon nanomaterials with h-BN and tungsten nanoparticles shows strong potential to further reduce friction and wear, supported by molecular dynamics and experimental studies.',
     ],
-    link: { text: '[Video Demo]', href: '#' }
+    link: { text: '[PPT]', href: '/Documents/Carbon nanomaterials.pdf' }
   },
   {
-    title: 'IoT-Based Smart Environmental Monitor',
-    imageUrl: '/images/techfest-iot.png', // <-- New sample project
+    title: 'Giga Casting',
+    imageUrl: '/images/Giga casting.png', // <-- New sample project
     descriptionPoints: [
-      'Engineered a smart monitoring system using an ESP32 microcontroller, and multiple environmental sensors.',
-      'Created a real-time web dashboard to visualize data on air quality, temperature, and humidity.',
-      'Presented the project at the annual TechFest, highlighting its potential for low-cost environmental monitoring solutions.',
+      'Investigated giga-casting technology in electric vehicles, highlighting current industrial trends.',
+      'Identified key challenges and outlined future research directions to enhance giga-casting.',
+      'Emphasized the need to improve this technology to meet rapidly growing demand for lightweight EVs in the coming decade.',
     ],
-    link: { text: '[GitHub]', href: '#' }
+    link: { text: '[Poster]', href: '/Documents/Giga Casting_Poster.pdf' }
   },
+  {
+    title: 'Hydrogen Liquefaction',
+    imageUrl: '/images/Hydrogen liquefaction.png', // <-- New sample project
+    descriptionPoints: [
+      'Studied hydrogen as a clean, renewable energy carrier and the challenges in its storage and transportation.',
+      'Identified liquid hydrogen as a promising alternative to gaseous hydrogen for more efficient storage and transport.',
+      'Evaluated key factors for liquid hydrogen deployment: energy density, leakage and safety, material compatibility, and infrastructure requirements.',
+    ],
+    link: { text: '[PPT]', href: '/Documents/Hydrogen Liquefaction.pdf' }
+  }
 ];
 
 const ProjectItem: React.FC<{ title: string; imageUrl: string; descriptionPoints: string[]; link: { text: string; href: string } }> = ({ title, imageUrl, descriptionPoints, link }) => (
