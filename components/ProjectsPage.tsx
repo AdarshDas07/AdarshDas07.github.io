@@ -1,6 +1,6 @@
 import React from 'react';
 
-const researchProjects = [
+const researchInterests = [
   {
     title: 'Molecular Dynamics Simulation',
     description: 'Exploring the physical movements of atoms and molecules to understand the properties of materials at a nanoscale level. This involves using computational models to simulate complex systems, providing insights that are often inaccessible through experimental means alone.',
@@ -102,14 +102,6 @@ const ProjectsPage: React.FC = () => {
     <div className="py-8 md:py-12">
       <h1 className="text-4xl font-bold text-gray-800 mb-4">Projects</h1>
       
-      {/* Research Projects Section */}
-      <section className="mb-12">
-        <h2 className="text-3xl font-bold text-gray-700 mb-8 border-b pb-3">Research Projects</h2>
-        <div className="space-y-12">
-          {academicProjects.map(p => <ProjectItem key={p.title} {...p} />)}
-        </div>
-      </section>
-      
       {/* Academic Projects Section */}
       <section className="mb-12">
         <h2 className="text-3xl font-bold text-gray-700 mb-8 border-b pb-3">Academic Projects</h2>
@@ -129,4 +121,19 @@ const ProjectsPage: React.FC = () => {
   );
 };
 
+const ResearchComponent: React.FC = () => {
+  return (
+    <div className="py-8 md:py-12">
+      <h2 className="text-4xl font-bold text-gray-800 mb-8 border-b pb-4">Research Projects</h2>
+      <p className="text-lg text-gray-700 mb-8 leading-relaxed text-justify">
+        I am deeply interested in the intersection of materials science and computational simulation to address modern engineering challenges. My primary research interests are focused on the following areas:
+      </p>
+      <div className="grid md:grid-cols-1 gap-8">
+        {researchInterests.map(interest => <ResearchCard key={interest.title} {...interest} />)}
+      </div>
+    </div>
+  );
+};
+
+export default ResearchComponent;
 export default ProjectsPage;
