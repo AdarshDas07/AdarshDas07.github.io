@@ -3,22 +3,22 @@ import React from 'react';
 // ===== Research data =====
 const researchInterests = [
   {
-    title: 'Molecular Dynamics Simulation',
+    title: 'Carbon Nanoparticles.',
     description:
-      'Exploring the physical movements of atoms and molecules to understand the properties of materials at a nanoscale level. This involves using computational models to simulate complex systems, providing insights that are often inaccessible through experimental means alone.',
-    tags: ['Computational Materials Science', 'Simulation', 'Nanotechnology'],
+      'Investigating thermal and triboilogical properties of a sample.',
+    tags: ['Computational Materials Science', 'Simulation'],
   },
   {
-    title: 'Carbon Nanomaterials',
+    title: 'Wear Performance and Tensile Behaviour.',
     description:
-      'Investigating the synthesis, characterization, and application of carbon-based nanomaterials such as graphene, carbon nanotubes, and fullerenes. My focus is on their mechanical, thermal, and electrical properties for advanced applications in composites, electronics, and energy storage.',
-    tags: ['Nanomaterials', 'Graphene', 'Composites'],
+      'Investigated different aluminium samples for wear and tensile testing.',
+    tags: ['Tribology'],
   },
   {
-    title: 'Internal Combustion Engines',
+    title: 'Characterization for Biological Implants.',
     description:
-      'Studying the thermodynamics, combustion processes, and materials science aspects of internal combustion engines. My interest lies in improving efficiency, reducing emissions, and exploring the use of novel materials and alternative fuels to create more sustainable powertrain systems.',
-    tags: ['Thermodynamics', 'Automotive Engineering', 'Clean Energy'],
+      'Gained experience in powder metallurgy including compaction and sintering. Performed material characterization on the specimen.',
+    tags: ['Material Characterization', 'Powder Metallurgy'],
   },
 ];
 
