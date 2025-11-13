@@ -128,7 +128,7 @@ const ProjectsPage: React.FC = () => {
 
       {/* Research section on TOP */}
       <section className="mb-12">
-        <h2 className="text-4xl font-bold text-gray-700 mb-8 border-b pb-4">
+        <h2 className="text-3xl font-bold text-gray-700 mb-8 border-b pb-3">
           Research Projects
         </h2>
         <div className="grid md:grid-cols-1 gap-8">
